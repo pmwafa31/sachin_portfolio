@@ -1,0 +1,58 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap'); */
+body{
+    background-color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.menu{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    margin-top: 0px;
+    padding: 20px;
+    list-style-position: inside;
+}
+
+.links{
+    display: inline;
+    padding: 10px;
+    float: left;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 20px;
+    color: brown;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.profile{
+    margin-top: 100px;
+    height: 200px;
+}
+
+#name{
+    font-family: 'Island Moments', cursive;
+    font-size: 40px;
+}
+
+#welcome{
+    background-image: linear-gradient(to right,rgb(228, 192, 192),rgb(117, 81, 81));
+}
+
+.contact_1 a{
+    text-shadow: none;
+    color: black;
+}
+
+.contact_1 h3{
+    display: inline;
+}
